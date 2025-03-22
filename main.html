@@ -550,25 +550,25 @@
         // Replace placeholder images with actual Griffin images when the page loads
         document.addEventListener('DOMContentLoaded', function() {
             // Set header logo (Image 2 or 5)
-            document.querySelector('.logo img').src = "/api/placeholder/60/60";
+            document.querySelector('.logo img').src = "logo color.jpg";
             document.querySelector('.logo img').style.visibility = "visible";
             
             // Set hero image (Image 4 - cosmic griffin)
-            document.querySelector('.griffin-hero-img img').src = "/api/placeholder/500/300";
+            document.querySelector('.griffin-hero-img img').src = "griffin.jpg";
             
             // Set about section image (Image 3 - white griffin with text)
-            document.querySelector('.about-image img').src = "/api/placeholder/500/300";
+            document.querySelector('.about-image img').src = "cover SM.webp;
             
             // Set incentives section image (Image 1 - detailed griffin)
-            document.querySelector('.incentives-image img').src = "/api/placeholder/400/300";
+            document.querySelector('.incentives-image img').src = "griffin.jpg";
             
             // Set footer logo (Image 2 or 5 - smaller version)
-            document.querySelector('.footer-logo img').src = "/api/placeholder/80/80";
+            document.querySelector('.footer-logo img').src = "logo logo.jpg";
             
             // Set step icons
             const stepIcons = document.querySelectorAll('.step-icon img');
             stepIcons.forEach(icon => {
-                icon.src = "/api/placeholder/80/80";
+                icon.src = "logo color.jpg";
             });
         });
     </script>
